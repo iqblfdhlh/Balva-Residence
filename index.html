@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balva Residence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <span class="logo-text"> </span>
+        </div>
+
+        <div class="menu">
+            <a href="#home" class="nav-link">HOME</a>
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#facility" class="nav-link">FACILITY</a>
+            <a href="#gallery" class="nav-link">GALLERY</a>
+            <a href="#contact-us" class="nav-link">CONTACT US</a>
+        </div>
+    </div>
+
+    <section id="home" style="text-align: center; padding: 200px 0px; color: white">
+        <h1>Balva Residence</h1>
+        <h2>THE NORTH HEAVEN</h2>
+        <p>Peaceful Place to Live</p>
+        <a href="#contact-us" class="contact-btn">
+            <i class="fab fa-whatsapp"></i> CONTACT US
+        </a>
+    </section>
+
+    <section id="about">
+        <div class="about-text">
+            <h1>Quality, Trust, and Professionalism at Every Step</h1>
+            <p>Modern apartment with a classic Indonesian theme. Provides a unique character to create a sense of comfort for its residents. Equipped with attic and balcony. It can be a place to relax or enjoy time with loved ones.</p>
+            <a href="#contact-us" class="about-btn">
+                <i class="fab fa-whatsapp"></i> CONTACT US
+            </a>
+        </div>
+        <div class="about-image">
+            <img src="bg.png" alt="Offers">
+        </div>
+    </section>
+
+    <section id="facility">
+        <h1>FACILITY</h1>
+        <p>Enjoy maximum comfort with various superior facilities that support your modern lifestyle.</p>
+        <div class="facility-container">
+            <div class="facility-box">
+                <img src="f1.png" alt="Sales" class="facility-image">
+                <div class="icon">
+                </div>
+                <h3>Infinity Pool with Panoramic View</h3>
+                <p>Experience luxury and serenity with an infinity pool offering spectacular views. Designed for ultimate relaxation, this pool provides an unrivaled swimming experience, whether for leisure or exercise.</p>
+            </div>
+    
+            <div class="facility-box">
+                <img src="f2.png" alt="Sales" class="facility-image">
+                <div class="icon">
+                </div>
+                <h3>Complete Fitness Center with Modern Equipment</h3>
+                <p>Enjoy a healthy lifestyle in a fitness center equipped with sophisticated and modern equipment. With a spacious and comfortable room, you can maintain your fitness without having to go far from home.</p>
+            </div>
+
+            <div class="facility-box">
+                <img src="f3.png" alt="Sales" class="facility-image">
+                <div class="icon">
+                </div>
+                <h3>Green Park and Jogging Track</h3>
+                <p>Bring the freshness of nature in the middle of an urban environment. This lush green park and shady jogging track are ideal places to relax, exercise, or just enjoy time with family in a natural and calming environment.</p>
+            </div>
+
+            <div class="facility-box">
+                <img src="f4.png" alt="Sales" class="facility-image">
+                <div class="icon">
+                </div>
+                <h3>24 Hour Security with CCTV System and Access Control</h3>
+                <p>Security is a top priority, with a 24-hour security system equipped with CCTV in every corner and modern access control. Residents can enjoy the comfort of living without worry, with the guarantee of security that is always maintained.</p>
+            </div>
+    </section>
+    
+    <section id="gallery">
+        <h1>GALLERY</h1>
+        <p>Find the perfect residence for you and your family in our exclusive property gallery.</p>
+        <div class="filter-container">
+            <button class="filter-btn" onclick="filterGallery('category1')">All</button>
+            <button class="filter-btn" onclick="filterGallery('category2')">APARTEMENT</button>
+            <button class="filter-btn" onclick="filterGallery('category3')">HOUSE</button>
+            <button class="filter-btn" onclick="filterGallery('category4')">VILLA</button>
+        </div>
+        
+        <div class="gallery-container">
+            <div class="gallery-item category1">
+                <div class="gallery-row">
+                    <img src="1.png" alt="category1">
+                    <img src="2.png" alt="category1">
+                    <img src="3.png" alt="category1">
+                </div>
+                <div class="gallery-row">
+                    <img src="4.png" alt="category1">
+                    <img src="5.png" alt="category1">
+                    <img src="6.png" alt="category1">
+                </div>
+            </div>
+            <div class="gallery-item category2">
+                <div class="gallery-row">
+                    <img src="1.png" alt="category2">
+                    <img src="2.png" alt="category2">
+                </div>
+            </div>
+            <div class="gallery-item category3">
+                <div class="gallery-row">
+                    <img src="3.png" alt="category3">
+                    <img src="4.png" alt="category3">
+                </div>
+            </div>
+            <div class="gallery-item category4">
+                <div class="gallery-row">
+                    <img src="5.png" alt="category4">
+                    <img src="6.png" alt="category4">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact-us">
+        <h1>CONTACT</h1>
+        <p>Get in touch with our team tom learn more about Balva Residence.</p>
+        <div class="contact-container">
+            <div class="contact-box">
+                <img src="c1.png" alt="Sales" class="contact-image">
+                <div class="icon">
+                </div>
+                <h3>Talk to Sales</h3>
+                <p>Interested in our offers? Just give us a call to chat with a member of our sales team.</p>
+                <a href="https://wa.me/6281217337736" target="_blank" class="contact-number whatsapp-button">Contact Us</a>
+            </div>
+    
+            <div class="contact-box">
+                <img src="c2.png" alt="Sales" class="contact-image">
+                <div class="icon">
+                </div>
+                <h3>Customer Support</h3>
+                <p>Need help? Feel free to reach out to our customer support team for assistance.</p>
+                <a href="https://wa.me/6281217337736" target="_blank" class="contact-number whatsapp-button">Contact Us</a>
+            </div>
+        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d324.909613023324!2d112.72458576112548!3d-7.307280344665756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb828917780b%3A0x52fe23dea1504b9!2sWarkop%20Sembarang!5e0!3m2!1sid!2sid!4v1728456704876!5m2!1sid!2sid" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <section id="copyright">
+        <h1>©Copyright <strong>BalvaResidence.id</strong>. All Rights Reserved</h1>
+        <h2>Powered by <strong>BalvaProperty.id</strong></h2>
+    </section>
+
+    <a href="#home" class="scroll-up">
+        <img src="up.png" alt="Scroll Up">
+    </a>
+
+    <a href="https://wa.me/6281217337736" class="whatsapp" target="_blank">
+        <img src="wa.png" alt="WhatsApp">
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
